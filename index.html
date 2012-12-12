@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Front End Test</title>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+</head>
+
+<body>
+
+<div>
+    <header>
+        <h1>Headline Text A</h1>
+    </header>
+
+    <section id="main">
+    </section>
+</div>
+
+<!-- prefer the jquery and underscore libs to be outside test/vendor - but that is how it is distribute by backbone js      -->
+<script src="./vendor/backbone/test/vendor/json2.js"></script>
+<script src="./vendor/backbone/test/vendor/jquery-1.7.1.js"></script>
+<script src="./vendor/backbone/test/vendor/underscore.js"></script>
+<script src="./vendor/backbone/backbone.js"></script>
+
+
+<!-- App specific code-->
+
+<script src="./init.js"></script>
+<script src="./models/icons.js"></script>
+<script src="./collections/icons.js"></script>
+<script src="./views/slider.js"></script>
+<script src="./views/app.js"></script>
+<script src="./bootstrap.js"></script>
+
+<!-- Templates - prefer to use handlebars but underscore js will do -->
+<script type="text/template" id="imageList">
+    <li><%= src %> <%= alt %></li>
+</script>
+
+</body>
+</html>

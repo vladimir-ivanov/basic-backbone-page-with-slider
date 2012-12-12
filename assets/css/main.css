@@ -1,0 +1,41 @@
+ul li {
+    list-style: none;
+    color: #fff;
+    /*TODO -add the fonts and use a grid system e.g. 360 css, twitter bootstrap etc */
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 50px;
+}
+
+ul li:nth-child(odd) {
+    clear: left;
+}
+
+header h1 {
+    color: #588BAB;
+    text-transform: uppercase;
+}
+
+header h1 .info {
+    text-transform: lowercase;
+    background-color: #588BAB;
+    color: #fff;
+    height: 1.6em;
+    --moz-border-radius: .8em;
+    border-radius: .8em;
+    --webkit-border-radius: .8em;
+    width: 1.6em;
+    font-size: .6em;
+    text-align: center;
+    padding-top: .3em;
+    display: block;
+}
+
+/* can not open the png file or the psd file to see what it should be */
+.slidingContainer {
+    color: red;
+    height: 100px;
+    border: 1px solid red;
+    display: none;
+}

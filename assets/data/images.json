@@ -1,0 +1,28 @@
+[
+    {
+        "icon": "source 1",
+        "color": "#c64919",
+        "text": "ABC"
+    },
+    {
+        "icon": "source 2",
+        "color": "#D37728",
+        "text": "DEF"
+    },
+    {
+        "icon": "source 3",
+        "color": "#556A70",
+        "text": "GHI"
+
+    },
+    {
+        "icon": "source 4",
+        "color": "#55777F",
+        "text": "JKL"
+    },
+    {
+        "icon": "source 5",
+        "color": "#68A03D",
+        "text": "MNO"
+    }
+]
